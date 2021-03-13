@@ -104,7 +104,7 @@ or any other library of your choice that have same functionality.
 
 
 ## Design 
-<img src="https://github.com/adamalfath/sentsor-uno-plus/blob/main/media/core328p-pcb-ss.png" width="600">  
+<img src="https://github.com/adamalfath/sentsor-uno-plus/blob/main/media/unoplus-pcb-ss.png" width="600">  
 
 SENTSOR Uno Plus is an open source hardware, please use it wisely. The project files is hosted on online based EDA called EasyEDA, you can access it via link below:  
 
