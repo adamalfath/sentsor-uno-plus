@@ -12,7 +12,7 @@ The CH340 USB-UART bridge communication line designed to be detachable from the 
 - **Arduino Uno Form Factor**, same pin layout ensuring compatibility with every existing shield or module.
 - **ATmega328PB-AU** @16MHz running on MiniCore custom Optiboot bootloader, packing extra functionality. Fully supported by Arduino IDE.
 - **CH340C UART to USB Bridge**, with switchable UART line designed to be modular. Data pin such as RX, TX, DTR, RTS is accessible via given pin header so you can use it as a standalone USB-UART device or as an external programmer for other board.
-- **DS1307M RTC**, with replaceable CR1220 batter. Connected via I2C at address 0x68.
+- **DS1307M RTC**, with replaceable CR1220 battery. Connected via I2C at address 0x68.
 - **MicroSD socket**, connected via SPI with slave select (SS) at pin D10.
 - **Built-in LED/RGB**, single color active-high LED connected to pin D22, and SK6812 addressable RGB LED connected to pin D23. SK6812 data out is exposed so you can chain it up with the rest of the LED circuit.
 - **24 pin GPIO** @5V level with extra pin and peripheral: 16xDigital IO, 8x10bit ADC, 2xUART, 2xSPI, 2xI2C. Please refer to poster image above.
@@ -90,7 +90,7 @@ or any other library of your choice that have same functionality.
 |X2|1|32.768kHz|OSC-SMD_4P-8032|
 |BTN1|1|4.5x4.5x3|SW-SMD_4P-L4.5-W4.5-P3.00|
 |SW1|1|HAD-02HWA-R|SW-SMD_2SPST-P2.54|
-|CN1|1|TYPEC-304-BCP16|USB-C-SMD|
+|CN1|1|TYPEC-304-BCP16|USB-C-SMD-TH|
 |CN2|1|5.5-2.0MM|DC-IN-TH_5.5x2.1|
 |CARD1|1|HYC80-TF08-375|HYC80-TF08-XXX|
 |J1,J4|2|1x8P Female|HDR-F-P2.54|
@@ -131,5 +131,5 @@ Contact: adam.alfath23@gmail.com
 Web: [sentsor.net](http://www.sentsor.net)  
 Repo: [SENTSOR Main Repo](http://github.com/adamalfath/sentsor)
 
-<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"/></a><br/>
-SENTSOR Uno Plus is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a href="https://certification.oshwa.org/id000006.html"><img src="https://github.com/adamalfath/sentsor-uno-plus/blob/main/media/OSHW_ID000006.png" width="80"><br/><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"/></a><br/>
+SENTSOR Uno Plus is a certified open source hardware project UID <a rel="certification" href="https://certification.oshwa.org/id000006.html">ID000006</a> and licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
