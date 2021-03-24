@@ -13,13 +13,13 @@ The CH340 USB-UART bridge communication line designed to be detachable from the 
 - **ATmega328PB-AU** @16MHz running on MiniCore custom Optiboot bootloader, packing extra functionality. Fully supported by Arduino IDE.
 - **CH340C UART to USB Bridge**, with switchable UART line designed to be modular. Data pin such as RX, TX, DTR, RTS is accessible via given pin header so you can use it as a standalone USB-UART device or as an external programmer for other board.
 - **DS1307M RTC**, with replaceable CR1220 battery. Connected via I2C at address 0x68.
-- **MicroSD socket**, connected via SPI with slave select (SS) at pin D10.
-- **Built-in LED/RGB**, single color active-high LED connected to pin D22, and SK6812 addressable RGB LED connected to pin D23. SK6812 data out is exposed so you can chain it up with the rest of the LED circuit.
-- **24 pin GPIO** @5V level with extra pin and peripheral: 16xDigital IO, 8x10bit ADC, 2xUART, 2xSPI, 2xI2C. Please refer to poster image above.
-- **USB Type-C Connector**, no more hassle when connecting USB cable, plug it in anyway you want.
 - **MT2492 DC-DC Converter**, set to +5V output. Delivering up to 2A with input range 6-16V, plenty enough for your power demanding project.
-- **ME6211 LDO**, providing +3.3V power up to 500mA.  
-  
+- **ME6211 LDO**, providing +3.3V power up to 500mA.
+- **Built-in LED/RGB**, single color active-high LED connected to pin D22, and SK6812 addressable RGB LED connected to pin D23. SK6812 data out is exposed so you can chain it up with the rest of the LED circuit.
+- **MicroSD socket**, connected via SPI with slave select (SS) at pin D10.
+- **USB Type-C Connector**, no more hassle when connecting USB cable, plug it in anyway you want.
+- **24 pin GPIO** @5V level with extra pin and peripheral: 16xDigital IO, 8x10bit ADC, 2xUART, 2xSPI, 2xI2C. Please refer to poster image above.  
+
 ### Peripheral comparison ATmega328PB vs. ATmega328P
 |Feature|ATmega328PB|ATmega328PB|
 |-|-|-|
