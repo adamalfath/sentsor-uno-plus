@@ -1,6 +1,6 @@
 # SENTSOR Uno Plus
 ## Introduction
-<img src="https://github.com/adamalfath/sentsor-uno-plus/blob/main/media/unoplus-render2.png" width="600">  
+<img src="https://github.com/adamalfath/sentsor-uno-plus/blob/main/media/unoplus-img0.jpg" width="600">  
 
 Inspired from the well known Arduino Uno development board from Arduino, SENTSOR Uno Plus comes with ATmega328PB MCU bringing more GPIO and peripherals. Equips with DS1307M RTC and MicroSD slot to easing your datalogging needs, SK6812 addressable RGB LED to play around, and DC-DC buck converter ready to provide juice for your power hungry project.  
 
@@ -21,7 +21,7 @@ The CH340 USB-UART bridge communication line designed to be detachable from the 
 - **24 pin GPIO** @5V level with extra pin and peripheral: 16xDigital IO, 8x10bit ADC, 2xUART, 2xSPI, 2xI2C. Please refer to poster image above.  
 
 ### Peripheral comparison ATmega328PB vs. ATmega328P
-|Feature|ATmega328PB|ATmega328PB|
+|Feature|ATmega328PB|ATmega328P|
 |-|-|-|
 |Digital IO|16 (usable)|14 (usable)|
 |Analog Input|8|6|
@@ -113,6 +113,10 @@ Link: https://easyeda.com/sentsor-project/sentsor-uno-plus
 The back silkscreen artwork <a href="https://www.vecteezy.com/vector-art/665571-megamendung-batik-gold-sketch-pattern">"Megamendung Batik Gold Sketch Pattern" by nightwolfdezines</a> is taken from <a href="https://www.vecteezy.com/">www.vecteezy.com</a> under Free License.
 
 ## Gallery
+<img src="https://github.com/adamalfath/sentsor-uno-plus/blob/main/media/unoplus-img1.jpg" width="400"> <img src="https://github.com/adamalfath/sentsor-uno-plus/blob/main/media/unoplus-img2.jpg" width="400">  
+<img src="https://github.com/adamalfath/sentsor-uno-plus/blob/main/media/unoplus-img3.jpg" width="400"> <img src="https://github.com/adamalfath/sentsor-uno-plus/blob/main/media/unoplus-img4.jpg" width="400">  
+<img src="https://github.com/adamalfath/sentsor-uno-plus/blob/main/media/unoplus-img5.jpg" width="400"> <img src="https://github.com/adamalfath/sentsor-uno-plus/blob/main/media/unoplus-img6.jpg" width="400">  
+<img src="https://github.com/adamalfath/sentsor-uno-plus/blob/main/media/unoplus-img7.jpg" width="400"> <img src="https://github.com/adamalfath/sentsor-uno-plus/blob/main/media/unoplus-img8.jpg" width="400">  
 _Render View:_  
 <img src="https://github.com/adamalfath/sentsor-uno-plus/blob/main/media/unoplus-render0.png" width="400"> <img src="https://github.com/adamalfath/sentsor-uno-plus/blob/main/media/unoplus-render1.png" width="400">  
 <img src="https://github.com/adamalfath/sentsor-uno-plus/blob/main/media/unoplus-render2.png" width="400"> <img src="https://github.com/adamalfath/sentsor-uno-plus/blob/main/media/unoplus-render3.png" width="400">
